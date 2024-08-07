@@ -50,3 +50,11 @@ if (savedToDos !== null) {
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
 }
+
+/* 
+function coolFilter(item) {
+  return item !== 3
+}
+
+[1, 2, 3, 4, 5].filter(coolFilter) // [1, 2, 4, 5]
+*/
